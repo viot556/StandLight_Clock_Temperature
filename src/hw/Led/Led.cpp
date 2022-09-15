@@ -1,5 +1,5 @@
 #include "Led.h"
-#include "wiringPi.h"
+#include <wiringPi.h>
 
 Led::Led(int pin)
     : pinNumber(pin), ledState(OFF)
